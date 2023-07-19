@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Page container styles */
+.page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    text-align: left;
+  }
+  
+  /* Edit and Delete button styles */
+  button.edit-btn,
+  button.delete-btn {
+    padding: 5px 8px;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  button.edit-btn {
+    background-color: #4caf50;
+  }
+  
+  button.delete-btn {
+    background-color: #f44336;
+  }
+  
